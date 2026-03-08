@@ -43,6 +43,23 @@ dumpdata list1
 quit
 ```
 
+
+### Project 2: MyShell
+
+- **목표**: 리눅스/유닉스 환경에서 동작하는 간단한 커맨드라인 쉘을 직접 구현합니다.
+- **주요 기능**
+	- 사용자의 명령어 입력을 받아 실행
+	- 백그라운드 실행 지원 (`&`)
+	- 내장 명령어 처리(예: `quit` 등)
+	- 여러 phase(1~3)로 점진적 기능 확장
+
+- **실행 방법**
+	```sh
+	cd prj2/phase1
+	make
+	./myshell
+	```
+
 ### Project 3
 
 - **Concurrent Server** : Using Event-Based server model and Thread-Based server model
