@@ -4,6 +4,16 @@
 
 본 저장소는 C언어 기반의 4가지 프로젝트로 구성되어 있습니다.
 
+## Tech Stack
+
+| 구분 | 기술 |
+| ---- | ---- |
+| Language | C |
+| Build | GNU Make, GCC (`-O2 -Wall`) |
+| Environment | Linux / Unix (POSIX) |
+| Libraries | CS:APP `csapp` wrapper, POSIX Threads (`pthread`), Semaphore, Signal |
+| Networking | BSD Socket API (event-based / thread-based concurrent server) |
+
 ## Projects
 
 ### Project 1: MyLib

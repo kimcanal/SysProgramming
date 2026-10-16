@@ -1,0 +1,18 @@
+# macOS
+.DS_Store
+
+# Build output
+*.o
+*.out
+*.dSYM/
+prj1/testlib
+prj2/*/myshell
+prj3/*/stockserver
+prj3/*/stockclient
+prj3/*/multiclient
+prj3/*/echo*
+
+# Editor / IDE
+.vscode/
+.idea/
+*.swp
